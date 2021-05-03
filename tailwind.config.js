@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
     purge: [
@@ -11,7 +12,23 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Lato', ...defaultTheme.fontFamily.sans],
-            }
+                logo: ['Comfortaa', ...defaultTheme.fontFamily.sans]
+            },
+            colors: {
+                green: colors.lime
+            },
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '1rem',
+                },
+                screens: {
+                    'sm': '640px',
+                    'md': '768px',
+                    'lg': '1024px',
+                    'xl': '1280px',
+                }
+            },
         },
     },
     variants: {
