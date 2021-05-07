@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Agorama - Mediterranean Kitchen - Kensal Rise, London</title>
+    <title>agorama - Mediterranean Kitchen - Kensal Rise, London</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 <header class="fixed top-0 inset-x-0 bg-gray-900 bg-opacity-95">
     <div class="text-white px-8">
         <nav class="h-16 flex justify-between items-center font-logo">
-            <div class="text-4xl font-bold">Agorama</div>
+            <div class="text-4xl font-bold">agorama</div>
             <ul class="flex items-center text-base xl:text-lg tracking-wide space-x-8">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
