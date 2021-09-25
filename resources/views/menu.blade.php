@@ -41,7 +41,7 @@
             Soon</h3>
         <h3 class="text-base xl:text-2xl text-center mt-8 font-light tracking-wide uppercase">London</h3>
 
-
+        <h3 class="text-base xl:text-2xl text-center mt-8 font-light tracking-wide uppercase">Menu</h3>
     </div>
 </div>
 </body>
