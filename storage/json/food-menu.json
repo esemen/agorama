@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Small Bites",
+        "items": [
+            {
+                "name": "Beer Plates",
+                "description": "Crispy Chicken Pieces, Baked Parmesan Potatoes, Sausage and Onion Rings",
+                "price": 12.5
+            },
+            {
+                "name": "Wine Plates",
+                "description": "Four kinds of Cheese, Crispy Carrots with Garlic, Kalamata Olives and Carpaccio",
+                "price": 11.5
+            },
+            {
+                "name": "King Prawn Crumpet",
+                "description": "Kumquat and Chili Sauce",
+                "price": 7.5
+            },
+            {
+                "name": "Crudites",
+                "description": "Carrots, Cucumber, Celery",
+                "price": 4.5,
+                "vegan": true
+            },
+            {
+                "name": "Patatas Bravas",
+                "description": "Fried White Potato, in a Rich Spicy Tomato Sauce",
+                "price": 4,
+                "vegan": true
+            },
+            {
+                "name": "Olive and Pickles",
+                "description": "Pickled Vegetables and Confit Garlic",
+                "price": 4.5,
+                "vegan": true
+            },
+            {
+                "name": "Garlic Bread",
+                "description": "Kumquat and Chili Sauce",
+                "price": 5.5
+            },
+            {
+                "name": "Casserole Shrimp",
+                "description": "with Parmesan Cheese and Garlic Sauce",
+                "price": 10.5
+            }
+        ]
+    }
+]

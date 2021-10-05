@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgoramaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
-Route::get('menu', function () {
-    return view('menu');
-})->name('menu');
+Route::get('menu', [AgoramaController::class, 'menu'])->name('menu');

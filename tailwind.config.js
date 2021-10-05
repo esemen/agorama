@@ -12,10 +12,13 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Lato', ...defaultTheme.fontFamily.sans],
+                serif: ['Montserrat', ...defaultTheme.fontFamily.serif],
                 logo: ['Comfortaa', ...defaultTheme.fontFamily.sans]
             },
             colors: {
-                green: colors.lime
+                green: colors.lime,
+                gold: '#bb9f5d'
+
             },
             container: {
                 center: true,
