@@ -146,9 +146,23 @@
         "footer": "",
         "items": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Mezze Platter",
+                "description": "Lamb Kofta, Zahter Chicken, Sweet Potato, Falafel, Baba Ganoush, Red Pepper Hummus, Dolma, Smoked Aubergine, Flat Bread",
+                "price": 11,
+                "hot": true
+            },
+            {
+                "name": "Tapas Platter",
+                "description": "Patatas Bravas, Spicy Lamb Meatballs, Prawn Croquettes, Deep Fried Calamari, Chorizo, Garlic Mushrooms, Spanish Omelette",
+                "price": 19,
+                "hot": true
+            },
+            {
+                "name": "Vegan Platter",
+                "description": "Falafel, Red Pepper Hummus, Tabbouleh, Fattoush, Sriracha Vegetable Skewers, Fresh Herbs and Patatas Bravas",
+                "price": 15,
+                "vegan": true,
+                "hot": true
             }
         ]
     },
@@ -217,5 +231,5 @@
                 "price": 0
             }
         ]
-    },
+    }
 ]
