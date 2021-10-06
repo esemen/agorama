@@ -171,9 +171,41 @@
         "footer": "",
         "items": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Kleftiko",
+                "description": "Oven Cooked Lamb Shank, Cooked in a rich and Creamy Tomato Sauce served with Seasonal Vegetables & Rice",
+                "price": 22
+            },
+            {
+                "name": "Chicken and Mushroom Casserole",
+                "description": "Slow Cooked Diced Chicken, Celery, Mushroom and Carrots",
+                "price": 16.5
+            },
+            {
+                "name": "Chicken & Seafood Paella",
+                "description": "Mix Seafood and Chicken in Saffron Rice",
+                "price": 19
+            },
+            {
+                "name": "Mix Casserole",
+                "description": "Lamb, Chicken, Tomato and Vegetable Casserole served with Olives\n",
+                "price": 19
+            },
+            {
+                "name": "Salt Baked Chicken\n",
+                "description": "Zahter Marinated half Chicken served with Cabbage Slaw, Potato on a bed of Basmati Rice\n",
+                "price": 17
+            },
+            {
+                "name": "Vegan Tagine",
+                "description": "Dried Apricot, Turmeric, Fresh Chilli and Saffron cooked slowly in Tomato Sauce served on a bed of Basmati Rice\n",
+                "price": 13.5,
+                "vegan": true,
+                "hot": true
+            },
+            {
+                "name": "Shrimp with Broccoli Sauce\n",
+                "description": "Broccoli, Garlic Sauce, Cheese \n",
+                "price": 12
             }
         ]
     },
