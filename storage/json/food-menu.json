@@ -109,5 +109,113 @@
                 "price": 9.5
             }
         ]
-    }
+    },
+    {
+        "name": "Salads",
+        "items": [
+            {
+                "name": "Beetroot and Halloumi Salad",
+                "description": "Diced Beetroot, Grilled Halloumi, Mixed Leafs, Pomegranate & Pumpkin Seeds",
+                "price": 8.5
+            },
+            {
+                "name": "Quinoa Salad with Avocado and Corn-fed Chicken",
+                "description": "Cherry Tomatos, Sweet Corn, Cucumber, Spring Onion, Mint, Grilled Chicken, Extra Virgin Olive Oil",
+                "price": 8.5
+            },
+            {
+                "name": "Broccoli and Beetroot Salad with Avocado Pesto",
+                "description": "Steamed Broccoli, Red Onion, Water Crest, Nigella Seeds, Walnuts, Avocado Pesto, Olive Oil & Lime",
+                "price": 7,
+                "vegan": true
+            },
+            {
+                "name": "Poached Salmon and Smashed Chickpeas Salad",
+                "description": "Poached Salmon Fillet, Roasted Pepper in Red Wine Vinegar, Red Onions with Chickpeas & Dijon Mustard",
+                "price": 12.5
+            },
+            {
+                "name": "Three Bean & Quinoa Salad",
+                "description": "Lentils, Kidney Beans, Cannellini Beans, Sundried Tomato, Pomegranate, Quinoa, Baby Gem Lettuce & Cucumber",
+                "price": 7.5
+            }
+        ]
+    },
+    {
+        "name": "Sharing Platters",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "House Pan Dishes",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "Grills",
+        "description": "All served with Basmati Rice and Salad)",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "Signature Burgers",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "Pasta and Risotto",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "Pizzas",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
+    {
+        "name": "Desserts",
+        "footer": "",
+        "items": [
+            {
+                "name": "",
+                "description": "",
+                "price": 0
+            }
+        ]
+    },
 ]
