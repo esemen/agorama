@@ -46,5 +46,68 @@
                 "price": 10.5
             }
         ]
+    },
+    {
+        "name": "Starter and Small Plates",
+        "items": [
+            {
+                "name": "Flat Bread Served with Red Pepper and Sundried Tomato-Hummus",
+                "description": "Chickpea, Garlic, Olive Oil, Sundried Tomato and Red Pepper",
+                "price": 5.5
+            },
+            {
+                "name": "Artichoke and Cucumber Tzatziki",
+                "description": "Homemade Yoghurt, Shredded Artichoke, Cucumber and Garlic",
+                "price": 5.5
+            },
+            {
+                "name": "Pan Fried Halloumi salad",
+                "description": "Crispy Halloumi served with mix Salad and Pumpkin Chutney",
+                "price": 7
+            },
+            {
+                "name": "Stuffed Vine Leaves (Dolma)",
+                "description": "Vine Leaves Stuffed with Rice, Quinoa, Pine Nuts and Raisins ",
+                "price": 8
+            },
+            {
+                "name": "Sweet Potato and Chickpea Falafel",
+                "description": "Fried Falafel in a flat Bread, served with Hummus, Green Tomato, Jalapeno and Salsa",
+                "vegan": true,
+                "price": 8.5
+            },
+            {
+                "name": "Borek",
+                "description": "Filo Pastry filled with Spinach, Purslane and Feta Cheese with Acacia Honey Dip",
+                "price": 6
+            },
+            {
+                "name": "Tempura Stems and Fresh Herbs",
+                "description": "",
+                "price": 6,
+                "vegan": true
+            },
+            {
+                "name": "Tabbouleh and Avocado",
+                "description": "Levantine Salad with Quinoa, Freekeh Avocado, Couscous Garnished with our own Early Harvest Olive Oil",
+                "price": 6.5
+            },
+            {
+                "name": "Spanish Spicy Lamb Meatballs",
+                "description": "Homemade Meatballs, served in a rich Tomato and Garlic Sauce",
+                "price": 8,
+                "hot": true
+            },
+            {
+                "name": "Grilled Octopus",
+                "description": "Grilled Octopus served with Broad Bean & Tomato Sauce with a side of Malawach Bread",
+                "price": 13.5
+            },
+            {
+                "name": "Tempura Calamari and Kimchi",
+                "description": "Deep Fried Crispy Calamari, Kohlrabi and Kimchi",
+                "price": 9.5
+            }
+        ]
     }
 ]
