@@ -16,10 +16,10 @@
                         <div class="flex items-baseline space-x-2">
                             <div class="font-semibold text-gray-700 text-base">{{ $menuItem->name }}
                                 @if($menuItem->vegan ?? false)
-                                    <span class="bg-green-700 font-medium ml-2 py-1 px-2 text-xs text-white rounded-full">vegan</span>
+                                    <span class="bg-green-700 font-medium ml-1 py-1 px-2 text-xxs text-white rounded-full">vegan</span>
                                 @endif
                                 @if($menuItem->hot ?? false)
-                                    <span class="bg-red-600 font-medium ml-2 py-1 px-2 text-xs text-white rounded-full">hot</span>
+                                    <span class="bg-red-600 font-medium ml-1 py-1 px-2 text-xxs text-white rounded-full">hot</span>
                                 @endif
                             </div>
                             <div class="flex-grow border-b-2 border-gray-200 border-dotted"></div>

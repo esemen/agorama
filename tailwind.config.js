@@ -15,6 +15,9 @@ module.exports = {
                 serif: ['Montserrat', ...defaultTheme.fontFamily.serif],
                 logo: ['Comfortaa', ...defaultTheme.fontFamily.sans]
             },
+            fontSize: {
+                'xxs': '.625rem',
+            },
             colors: {
                 green: colors.lime,
                 gold: '#bb9f5d'

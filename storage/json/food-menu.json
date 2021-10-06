@@ -214,9 +214,42 @@
         "description": "All served with Basmati Rice and Salad)",
         "items": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Lamb and Beef Kofte",
+                "description": "Mix of Charcoal Grilled Spicy Lamb Kofte and Beef Meatballs \n",
+                "price": 15.5,
+                "hot": true
+            },
+
+            {
+                "name": "Corn-Fed Chicken Shish\n",
+                "description": "Charcoal Grilled Marinated Corn-Fed Chicken \n",
+                "price": 13
+            },
+
+            {
+                "name": "Lamb Shish",
+                "description": "Charcoal Grilled Marinated Lamb \n",
+                "price": 16.5
+            },
+
+            {
+                "name": "Chicken Wings",
+                "description": "Marinated Peri-Peri Chicken Wings\n",
+                "price": 12.5,
+                "hot": true
+            },
+
+            {
+                "name": "Mixed Grill",
+                "description": "Mixed Sharing Platter of Beef, Chicken and Lamb & Peri-Peri Chicken Wings\n",
+                "price": 23.5,
+                "hot": true
+            },
+
+            {
+                "name": "Ribeye Steak",
+                "description": "Chips and Salad\n",
+                "price": 24
             }
         ]
     },
