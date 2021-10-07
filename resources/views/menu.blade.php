@@ -7,9 +7,14 @@
         <h1 class="text-4xl text-white font-serif">Menu</h1>
     </div>
 
-    <div class="container max-w-screen-lg">
-        @foreach ($foodMenu as $menuCategory)
-            <x-menu.category :category="$menuCategory" ></x-menu.category>
+    <div class="container max-w-screen-lg pb-24">
+        @foreach ($foodMenu->foods as $menuCategory)
+            <x-menu.food-category :category="$menuCategory" ></x-menu.food-category>
+        @endforeach
+
+
+        @foreach ($foodMenu->drinks as $menuCategory)
+            <x-menu.drink-category :category="$menuCategory" ></x-menu.drink-category>
         @endforeach
     </div>
 @endsection
