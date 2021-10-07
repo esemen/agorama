@@ -187,24 +187,24 @@
             },
             {
                 "name": "Mix Casserole",
-                "description": "Lamb, Chicken, Tomato and Vegetable Casserole served with Olives\n",
+                "description": "Lamb, Chicken, Tomato and Vegetable Casserole served with Olives",
                 "price": 19
             },
             {
-                "name": "Salt Baked Chicken\n",
-                "description": "Zahter Marinated half Chicken served with Cabbage Slaw, Potato on a bed of Basmati Rice\n",
+                "name": "Salt Baked Chicken",
+                "description": "Zahter Marinated half Chicken served with Cabbage Slaw, Potato on a bed of Basmati Rice",
                 "price": 17
             },
             {
                 "name": "Vegan Tagine",
-                "description": "Dried Apricot, Turmeric, Fresh Chilli and Saffron cooked slowly in Tomato Sauce served on a bed of Basmati Rice\n",
+                "description": "Dried Apricot, Turmeric, Fresh Chilli and Saffron cooked slowly in Tomato Sauce served on a bed of Basmati Rice",
                 "price": 13.5,
                 "vegan": true,
                 "spicy": true
             },
             {
-                "name": "Shrimp with Broccoli Sauce\n",
-                "description": "Broccoli, Garlic Sauce, Cheese \n",
+                "name": "Shrimp with Broccoli Sauce",
+                "description": "Broccoli, Garlic Sauce, Cheese ",
                 "price": 12
             }
         ]
@@ -215,35 +215,35 @@
         "items": [
             {
                 "name": "Lamb and Beef Kofte",
-                "description": "Mix of Charcoal Grilled Spicy Lamb Kofte and Beef Meatballs \n",
+                "description": "Mix of Charcoal Grilled Spicy Lamb Kofte and Beef Meatballs ",
                 "price": 15.5,
                 "spicy": true
             },
             {
-                "name": "Corn-Fed Chicken Shish\n",
-                "description": "Charcoal Grilled Marinated Corn-Fed Chicken \n",
+                "name": "Corn-Fed Chicken Shish",
+                "description": "Charcoal Grilled Marinated Corn-Fed Chicken ",
                 "price": 13
             },
             {
                 "name": "Lamb Shish",
-                "description": "Charcoal Grilled Marinated Lamb \n",
+                "description": "Charcoal Grilled Marinated Lamb ",
                 "price": 16.5
             },
             {
                 "name": "Chicken Wings",
-                "description": "Marinated Peri-Peri Chicken Wings\n",
+                "description": "Marinated Peri-Peri Chicken Wings",
                 "price": 12.5,
                 "spicy": true
             },
             {
                 "name": "Mixed Grill",
-                "description": "Mixed Sharing Platter of Beef, Chicken and Lamb & Peri-Peri Chicken Wings\n",
+                "description": "Mixed Sharing Platter of Beef, Chicken and Lamb & Peri-Peri Chicken Wings",
                 "price": 23.5,
                 "spicy": true
             },
             {
                 "name": "Ribeye Steak",
-                "description": "Chips and Salad\n",
+                "description": "Chips and Salad",
                 "price": 24
             }
         ]
@@ -256,23 +256,23 @@
                 "name": "Beef Burgers",
                 "items": [
                     {
-                        "name": "8oz Beef burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries (Gluten, Barley, Egg, Dairy)\n",
+                        "name": "8oz Beef burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries (Gluten, Barley, Egg, Dairy)",
                         "price": 12.5
                     },
                     {
-                        "name": "Beef and Bacon Burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "name": "Beef and Bacon Burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
                         "price": 11.5
                     },
                     {
-                        "name": "Beef and Cheese Burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw and Cheese served with Fries\n",
+                        "name": "Beef and Cheese Burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw and Cheese served with Fries",
                         "price": 11
                     },
                     {
-                        "name": "Creamy Mushroom Burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw, Creamy Mushroom and Mozzarella served with Fries\n",
+                        "name": "Creamy Mushroom Burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw, Creamy Mushroom and Mozzarella served with Fries",
                         "price": 12
                     }
                 ]
@@ -281,14 +281,14 @@
                 "name": "Vegan Burgers",
                 "items": [
                     {
-                        "name": "Chickpea Burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "name": "Chickpea Burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
                         "price": 11,
                         "vegan": true
                     },
                     {
-                        "name": "Aubergine and Courgette Burger\n",
-                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "name": "Aubergine and Courgette Burger",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
                         "price": 12.5,
                         "vegan": true
                     }
@@ -299,13 +299,13 @@
                 "items": [
                     {
                         "name": "Spicy Buffalo",
-                        "description": "Crispy Chicken, Mozzarella, Lettuce, Garlic and Buffalo Sauce\n",
+                        "description": "Crispy Chicken, Mozzarella, Lettuce, Garlic and Buffalo Sauce",
                         "price": 12,
                         "spicy": true
                     },
                     {
-                        "name": "Crispy Chicken Burger\n",
-                        "description": "Crispy Chicken,Onion,Garlic Mayo and Chipotle Sauce\n",
+                        "name": "Crispy Chicken Burger",
+                        "description": "Crispy Chicken,Onion,Garlic Mayo and Chipotle Sauce",
                         "price": 11.5
                     }
                 ]
@@ -317,44 +317,44 @@
         "footer": "",
         "items": [
             {
-                "name": "Fresh Penne Arrabiata\n",
-                "description": "Tomato, Fresh Chilli, Garlic, Cube Shape Pasta\n",
+                "name": "Fresh Penne Arrabiata",
+                "description": "Tomato, Fresh Chilli, Garlic, Cube Shape Pasta",
                 "price": 8.5
             },
             {
-                "name": "Fresh Spaghetti Alla Norma\n",
-                "description": "Southern Italy Reagan Dish, Aubergine,Tomato, Basil and Garlic Topped with Pecorino Cheese\n",
+                "name": "Fresh Spaghetti Alla Norma",
+                "description": "Southern Italy Reagan Dish, Aubergine,Tomato, Basil and Garlic Topped with Pecorino Cheese",
                 "price": 9.5
             },
             {
-                "name": "Spaghetti Gamberoni Piccanti\n",
-                "description": "King Prawns, Hot Chilli, Anchovies, Capers, Olive and Parsley\n",
+                "name": "Spaghetti Gamberoni Piccanti",
+                "description": "King Prawns, Hot Chilli, Anchovies, Capers, Olive and Parsley",
                 "price": 11,
                 "spicy": true
             },
             {
                 "name": "Penne Polpette",
-                "description": "Slow Cooked Meatballs, Tomato Sauce and Parmesan Cheese\n",
+                "description": "Slow Cooked Meatballs, Tomato Sauce and Parmesan Cheese",
                 "price": 10
             },
             {
-                "name": "Fresh Spaghetti Carbonara\n",
-                "description": "Pancetta, Egg Yolk, Parmesan Cream\n",
+                "name": "Fresh Spaghetti Carbonara",
+                "description": "Pancetta, Egg Yolk, Parmesan Cream",
                 "price": 9
             },
             {
-                "name": "Fresh Fettuccine Bolognese\n",
-                "description": "Ragu Meat, Tomato Sauce\n",
+                "name": "Fresh Fettuccine Bolognese",
+                "description": "Ragu Meat, Tomato Sauce",
                 "price": 9
             },
             {
                 "name": "Risotto Ai Funghi",
-                "description": "Arborio Rice with Porcini Mushroom and Black Truffle\n",
+                "description": "Arborio Rice with Porcini Mushroom and Black Truffle",
                 "price": 9.5
             },
             {
-                "name": "Risotto Ai Frutti di Mare\n",
-                "description": "Arborio Rice, Tomato Sauce and Mix Seafood\n",
+                "name": "Risotto Ai Frutti di Mare",
+                "description": "Arborio Rice, Tomato Sauce and Mix Seafood",
                 "price": 11.5
             }
         ]
@@ -364,33 +364,33 @@
         "footer": "",
         "items": [
             {
-                "name": "Pizza Margherita\n",
-                "description": "Tomato, Mozzarella and Oregano\n",
+                "name": "Pizza Margherita",
+                "description": "Tomato, Mozzarella and Oregano",
                 "price": 8.5
             },
             {
-                "name": "Pizza Prosciutto e Funghi\n",
-                "description": "Tomato, Mozzarella, Ham and Mushroom\n",
+                "name": "Pizza Prosciutto e Funghi",
+                "description": "Tomato, Mozzarella, Ham and Mushroom",
                 "price": 9.5
             },
             {
-                "name": "Pizza Pollo and Rosemarino\n",
-                "description": "Tomato, Mozzarella, Chicken, Mushroom and Rosemary\n",
+                "name": "Pizza Pollo and Rosemarino",
+                "description": "Tomato, Mozzarella, Chicken, Mushroom and Rosemary",
                 "price": 10
             },
             {
-                "name": "Meaty Pizza\n",
-                "description": "Meatballs, Ham, Chicken, Mushroom, Fresh Chilli and Mozzarella\n",
+                "name": "Meaty Pizza",
+                "description": "Meatballs, Ham, Chicken, Mushroom, Fresh Chilli and Mozzarella",
                 "price": 12
             },
             {
-                "name": "Quattro Formaggi\n",
-                "description": "Four Cheese Pizza, Tomato Sauce\n",
+                "name": "Quattro Formaggi",
+                "description": "Four Cheese Pizza, Tomato Sauce",
                 "price": 11
             },
             {
-                "name": "Seafood Pizza\n",
-                "description": "Mix Seafood, Prawn, Tuna, Olives and Red Onion\n",
+                "name": "Seafood Pizza",
+                "description": "Mix Seafood, Prawn, Tuna, Olives and Red Onion",
                 "price": 12.5
             }
         ]
@@ -400,9 +400,71 @@
         "footer": "",
         "items": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Chocolate Torte",
+                "description": "Dark and Milky Chocolate Mousse served with Ice Cream",
+                "price": 6
+            },
+            {
+                "name": "Eton Mess",
+                "description": "Meringue Cream, Fresh Berries",
+                "price": 7
+            },
+            {
+                "name": "Olga's Delight",
+                "description": "Orange Grandmarine, Creme Brulee served with Berries Compote",
+                "price": 9
+            },
+            {
+                "name": "Selection Ice Cream",
+                "description": "Vanilla, Chocolate, Strawberry",
+                "price": 6
+            }
+        ]
+    },
+    {
+        "name": "Breakfast",
+        "footer": "",
+        "items": [
+            {
+                "name": "English Breakfast",
+                "description": "Sausage, Bacon Two Fried Eggs, Black Pudding, Baked Beans, Baked Mushroom ,Grill Tomato on Oat Bread",
+                "price": 11.5
+            },
+            {
+                "name": "American Breakfast",
+                "description": "Three Pancakes with Bacon Sausage, Crispy Potato, Fried Egg, Maple Syrup",
+                "price": 10
+            },
+            {
+                "name": "French Breakfast",
+                "description": "Croque Madame fried Egg, Potatoes and Salad",
+                "price": 9
+            },
+            {
+                "name": "Vegan Breakfast",
+                "description": "Portobello Mushrooms, Baked Beans, Scrambled Tofu, Vegan Sausages & Brioche Bun",
+                "price": 11,
+                "vegan": true
+            },
+            {
+                "name": "Omelettes",
+                "description": "\"Three Eggs Omelette make your own selected up to three toppingsCheese, Bacon, Ham, Mushrooms, Spinach, Tomato, Onion, Mixed Peppers.\"",
+                "price": 6
+            },
+            {
+                "name": "Home Made Rolls",
+                "description": "Bacon, Sausage, Halloumi, Brioche Bun selected Filling",
+                "price": 6
+            },
+            {
+                "name": "Salted Caramel Pancakes",
+                "description": "4 Pancakes, Banana Cream, Fresh Berries with Salted Caramel",
+                "price": 12
+            },
+            {
+                "name": "Eggs Florentine",
+                "description": "English Muffin Poached Egg, Hollandaise Sauce & Spinach",
+                "price": 11
             }
         ]
     }
