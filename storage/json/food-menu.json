@@ -96,7 +96,7 @@
                 "name": "Spanish Spicy Lamb Meatballs",
                 "description": "Homemade Meatballs, served in a rich Tomato and Garlic Sauce",
                 "price": 8,
-                "hot": true
+                "spicy": true
             },
             {
                 "name": "Grilled Octopus",
@@ -143,32 +143,32 @@
     },
     {
         "name": "Sharing Platters",
-        "footer": "",
+        "description": "All platters with choice of dips: guacamole, tomato salsa, tzatziki, sriracha mayo, garlic mayo",
         "items": [
             {
                 "name": "Mezze Platter",
                 "description": "Lamb Kofta, Zahter Chicken, Sweet Potato, Falafel, Baba Ganoush, Red Pepper Hummus, Dolma, Smoked Aubergine, Flat Bread",
                 "price": 11,
-                "hot": true
+                "spicy": true
             },
             {
                 "name": "Tapas Platter",
                 "description": "Patatas Bravas, Spicy Lamb Meatballs, Prawn Croquettes, Deep Fried Calamari, Chorizo, Garlic Mushrooms, Spanish Omelette",
                 "price": 19,
-                "hot": true
+                "spicy": true
             },
             {
                 "name": "Vegan Platter",
                 "description": "Falafel, Red Pepper Hummus, Tabbouleh, Fattoush, Sriracha Vegetable Skewers, Fresh Herbs and Patatas Bravas",
                 "price": 15,
                 "vegan": true,
-                "hot": true
+                "spicy": true
             }
         ]
     },
     {
         "name": "House Pan Dishes",
-        "footer": "",
+        "description": "",
         "items": [
             {
                 "name": "Kleftiko",
@@ -200,7 +200,7 @@
                 "description": "Dried Apricot, Turmeric, Fresh Chilli and Saffron cooked slowly in Tomato Sauce served on a bed of Basmati Rice\n",
                 "price": 13.5,
                 "vegan": true,
-                "hot": true
+                "spicy": true
             },
             {
                 "name": "Shrimp with Broccoli Sauce\n",
@@ -211,41 +211,36 @@
     },
     {
         "name": "Grills",
-        "description": "All served with Basmati Rice and Salad)",
+        "description": "All served with Basmati Rice and Salad",
         "items": [
             {
                 "name": "Lamb and Beef Kofte",
                 "description": "Mix of Charcoal Grilled Spicy Lamb Kofte and Beef Meatballs \n",
                 "price": 15.5,
-                "hot": true
+                "spicy": true
             },
-
             {
                 "name": "Corn-Fed Chicken Shish\n",
                 "description": "Charcoal Grilled Marinated Corn-Fed Chicken \n",
                 "price": 13
             },
-
             {
                 "name": "Lamb Shish",
                 "description": "Charcoal Grilled Marinated Lamb \n",
                 "price": 16.5
             },
-
             {
                 "name": "Chicken Wings",
                 "description": "Marinated Peri-Peri Chicken Wings\n",
                 "price": 12.5,
-                "hot": true
+                "spicy": true
             },
-
             {
                 "name": "Mixed Grill",
                 "description": "Mixed Sharing Platter of Beef, Chicken and Lamb & Peri-Peri Chicken Wings\n",
                 "price": 23.5,
-                "hot": true
+                "spicy": true
             },
-
             {
                 "name": "Ribeye Steak",
                 "description": "Chips and Salad\n",
@@ -255,12 +250,65 @@
     },
     {
         "name": "Signature Burgers",
-        "footer": "",
-        "items": [
+        "description": "All Burger Buns are Homemade and Contains Pickles, Onion Chutney and Special Burger mint",
+        "categories": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Beef Burgers",
+                "items": [
+                    {
+                        "name": "8oz Beef burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries (Gluten, Barley, Egg, Dairy)\n",
+                        "price": 12.5
+                    },
+                    {
+                        "name": "Beef and Bacon Burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "price": 11.5
+                    },
+                    {
+                        "name": "Beef and Cheese Burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw and Cheese served with Fries\n",
+                        "price": 11
+                    },
+                    {
+                        "name": "Creamy Mushroom Burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw, Creamy Mushroom and Mozzarella served with Fries\n",
+                        "price": 12
+                    }
+                ]
+            },
+            {
+                "name": "Vegan Burgers",
+                "items": [
+                    {
+                        "name": "Chickpea Burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "price": 11,
+                        "vegan": true
+                    },
+                    {
+                        "name": "Aubergine and Courgette Burger\n",
+                        "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries\n",
+                        "price": 12.5,
+                        "vegan": true
+                    }
+                ]
+            },
+            {
+                "name": "Chicken Burgers",
+                "items": [
+                    {
+                        "name": "Spicy Buffalo",
+                        "description": "Crispy Chicken, Mozzarella, Lettuce, Garlic and Buffalo Sauce\n",
+                        "price": 12,
+                        "spicy": true
+                    },
+                    {
+                        "name": "Crispy Chicken Burger\n",
+                        "description": "Crispy Chicken,Onion,Garlic Mayo and Chipotle Sauce\n",
+                        "price": 11.5
+                    }
+                ]
             }
         ]
     },
