@@ -23,7 +23,7 @@
                             class="bg-green-700 font-medium ml-1 py-1 px-2 text-xxs text-white rounded-full">vegan</span>
                     @endif
                     @if($menuItem->spicy ?? false)
-                        <span class="bg-red-600 font-medium ml-1 py-1 px-2 text-xxs text-white rounded-full">hot & spicy</span>
+                        <span class="bg-red-600 font-medium ml-1 py-1 px-2 text-xxs text-white rounded-full">spicy</span>
                     @endif
                 </div>
                 <div class="flex-grow border-b-2 border-gray-200 border-dotted"></div>
