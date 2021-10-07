@@ -364,9 +364,34 @@
         "footer": "",
         "items": [
             {
-                "name": "",
-                "description": "",
-                "price": 0
+                "name": "Pizza Margherita\n",
+                "description": "Tomato, Mozzarella and Oregano\n",
+                "price": 8.5
+            },
+            {
+                "name": "Pizza Prosciutto e Funghi\n",
+                "description": "Tomato, Mozzarella, Ham and Mushroom\n",
+                "price": 9.5
+            },
+            {
+                "name": "Pizza Pollo and Rosemarino\n",
+                "description": "Tomato, Mozzarella, Chicken, Mushroom and Rosemary\n",
+                "price": 10
+            },
+            {
+                "name": "Meaty Pizza\n",
+                "description": "Meatballs, Ham, Chicken, Mushroom, Fresh Chilli and Mozzarella\n",
+                "price": 12
+            },
+            {
+                "name": "Quattro Formaggi\n",
+                "description": "Four Cheese Pizza, Tomato Sauce\n",
+                "price": 11
+            },
+            {
+                "name": "Seafood Pizza\n",
+                "description": "Mix Seafood, Prawn, Tuna, Olives and Red Onion\n",
+                "price": 12.5
             }
         ]
     },
