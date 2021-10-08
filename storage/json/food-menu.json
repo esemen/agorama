@@ -477,31 +477,36 @@
                 {
                     "name": "Red Wines",
                     "units": [
-                        "Glass"
+                        "Glass",
+                        "Bottle"
                     ],
                     "items": [
                         {
                             "name": "The Rambler Red, Vino da Travilo (Italy)",
                             "price": [
-                                4
+                                4,
+                                19
                             ]
                         },
                         {
                             "name": "Artesa Rioja Tempronillo (Spain)",
                             "price": [
-                                5.5
+                                5.5,
+                                29
                             ]
                         },
                         {
                             "name": "Nieto Malbec Mendosa (Argentina)",
                             "price": [
-                                6.5
+                                6.5,
+                                31
                             ]
                         },
                         {
                             "name": "San Felice Chianti Classico Toscana (Italy)",
                             "price": [
-                                6.8
+                                6.8,
+                                33
                             ]
                         }
                     ]
@@ -509,37 +514,43 @@
                 {
                     "name": "White Wines",
                     "units": [
-                        "Glass"
+                        "Glass",
+                        "Bottle"
                     ],
                     "items": [
                         {
                             "name": "Domaine de Vedilhan Sauvignon Blanc, Pays d’Oc (France)",
                             "price": [
-                                5
+                                5,
+                                26
                             ]
                         },
                         {
                             "name": "Cave de l’Ormarine ‘Carte Noire’, Picpoul de Pinet (France) ",
                             "price": [
-                                6
+                                6,
+                                28.5
                             ]
                         },
                         {
                             "name": "Araldica Gavi La Luciana (Italy)",
                             "price": [
-                                6.5
+                                6.5,
+                                31
                             ]
                         },
                         {
                             "name": "Il Cascinone Campo Fiorito Chardonnay (Italy)",
                             "price": [
-                                6.8
+                                6.8,
+                                33
                             ]
                         },
                         {
                             "name": "Cave de Turckheim Sylvaner Vieilles Vignes (France)",
                             "price": [
-                                7.5
+                                7.5,
+                                37
                             ]
                         }
                     ]
@@ -547,19 +558,22 @@
                 {
                     "name": "Sparkling Wines",
                     "units": [
-                        "Glass"
+                        "Glass",
+                        "Bottle"
                     ],
                     "items": [
                         {
                             "name": "Le dolci Colline Prosecco Spumante Brut (Italy)",
                             "price": [
-                                6
+                                6,
+                                30
                             ]
                         },
                         {
                             "name": "Mas Macia Cava Brut (Spain)",
                             "price": [
-                                7
+                                7,
+                                34
                             ]
                         }
                     ]
@@ -567,13 +581,15 @@
                 {
                     "name": "Sweet/Fortified Wines",
                     "units": [
-                        "Glass"
+                        "Glass",
+                        "Bottle"
                     ],
                     "items": [
                         {
                             "name": "Alasia Moscato D’Asti (Italy)",
                             "price": [
-                                5
+                                5,
+                                26
                             ]
                         }
                     ]
@@ -586,7 +602,7 @@
                 {
                     "name": "",
                     "units": [
-                        "Glass"
+                        ""
                     ],
                     "items": [
                         {
@@ -596,13 +612,13 @@
                             ]
                         },
                         {
-                            "name": "Neck Oil 330ml",
+                            "name": "Neck Oil 330 ml",
                             "price": [
                                 6
                             ]
                         },
                         {
-                            "name": "Gamma Ray 330ml",
+                            "name": "Gamma Ray 330 ml",
                             "price": [
                                 6
                             ]
@@ -666,6 +682,355 @@
                             "name": "Bloody Mary",
                             "price": [
                                 6.5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spirits",
+            "categories": [
+                {
+                    "name": "Bourbon",
+                    "units": [
+                        "Single",
+                        "Double"
+                    ],
+                    "items": [
+                        {
+                            "name": "Jack Daniels",
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": " Woodford Reserve",
+                            "price": [
+                                6,
+                                9.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Scotch Whisky",
+                    "units": [
+                        "Single",
+                        "Double"
+                    ],
+                    "items": [
+                        {
+                            "name": "Laphroaig 10 yr",
+                            "price": [
+                                6,
+                                9.5
+                            ]
+                        },
+                        {
+                            "name": "Talisker 10 yr",
+                            "price": [
+                                7,
+                                11
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vodka with Mixer",
+                    "units": [
+                        "Single",
+                        "Double"
+                    ],
+                    "items": [
+                        {
+                            "name": "Absolut",
+                            "price": [
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Greygoose",
+                            "price": [
+                                6.5,
+                                8.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Gin with Mixer",
+                    "units": [
+                        "Single",
+                        "Double"
+                    ],
+                    "items": [
+                        {
+                            "name": "Beefeather",
+                            "price": [
+                                5.5,
+                                7.5
+                            ]
+                        },
+                        {
+                            "name": "Gordon Gin",
+                            "price": [
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Gordon Pink",
+                            "price": [
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Raki",
+                    "units": [
+                        "Single",
+                        "Double",
+                        "350 ml",
+                        "700 ml"
+                    ],
+                    "items": [
+                        {
+                            "name": "Yeni Raki",
+                            "price": [
+                                5,
+                                8,
+                                30,
+                                58
+                            ]
+                        },
+                        {
+                            "name": "Tekirdag Raki",
+                            "price": [
+                                6,
+                                9.5,
+                                33,
+                                61
+                            ]
+                        },
+                        {
+                            "name": "Efe Gold",
+                            "price": [
+                                8,
+                                13,
+                                37,
+                                66
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Soft Drinks",
+            "categories": [
+                {
+                    "name": "",
+                    "units": [
+                        "330 ml"
+                    ],
+                    "items": [
+                        {
+                            "name": "Coca-Cola",
+                            "price": [
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Coca-Cola Zero",
+                            "price": [
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Coca-Cola Diet",
+                            "price": [
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Sprite Lime Lemon",
+                            "price": [
+                                2.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vitamin Bar Fresh Juices",
+                    "units": [
+                        "330 ml"
+                    ],
+                    "items": [
+                        {
+                            "name": "Orange, Apple & Ginger, Pomegranate, Carrot (DETOX1)",
+                            "price": [
+                                5.5
+                            ]
+                        },
+                        {
+                            "name": "Mixed Ginger, Carrot, Parsley, Celery Stalk (DETOX2)",
+                            "price": [
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Orange Juice",
+                            "price": [
+                                3.5
+                            ]
+                        },
+                        {
+                            "name": "Apple Juice",
+                            "price": [
+                                3.5
+                            ]
+                        },
+                        {
+                            "name": "Cranberry Juice",
+                            "price": [
+                                3.5
+                            ]
+                        },
+                        {
+                            "name": "Tomato Juice",
+                            "price": [
+                                3.5
+                            ]
+                        },
+                        {
+                            "name": "Selection of Fresh Fruits and Vegetables from Local Market (antioxidant)",
+                            "price": [
+                                5.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Herbal Teas",
+                    "units": [
+                        ""
+                    ],
+                    "items": [
+                        {
+                            "name": "Lemon Ginger Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Fennel Lemon Zest Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Strawberry & Raspberry Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Camomile & Honey Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Cranberry & Raspberry Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Green Tea",
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "White Tea",
+                            "price": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Coffee",
+                    "units": [
+                        ""
+                    ],
+                    "items": [
+                        {
+                            "name": "Espresso",
+                            "price": [
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Americano",
+                            "price": [
+                                2.7
+                            ]
+                        },
+                        {
+                            "name": "Latte",
+                            "price": [
+                                3.2
+                            ]
+                        },
+                        {
+                            "name": "Macchiato",
+                            "price": [
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Cappuccino",
+                            "price": [
+                                3.2
+                            ]
+                        },
+                        {
+                            "name": "Turkish Coffee",
+                            "price": [
+                                3.2
+                            ]
+                        },
+                        {
+                            "name": "Small Cookies Plates",
+                            "price": [
+                                2.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Water",
+                    "units": [
+                        "Bottle"
+                    ],
+                    "items": [
+                        {
+                            "name": "Still Water",
+                            "price": [
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Sparkling Water",
+                            "price": [
+                                3
                             ]
                         }
                     ]
