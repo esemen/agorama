@@ -19,10 +19,10 @@
                 <div class="absolute left-0 right-0 top-16 bg-gray-900 bg-opacity-80 px-4 py-2" x-show="showMenu"
                      @click.outside="showMenu=false">
                     <ul class="flex flex-col divide-y leading-10">
-                        <li><a href="{{ route('index') }}">Home</a></li>
+                        <li><a class="py-2 block" href="{{ route('index') }}">Home</a></li>
 {{--                        <li><a href="#">About</a></li>--}}
-                        <li><a href="{{ route('menu') }}">Menu</a></li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a class="py-2 block" href="{{ route('menu') }}">Menu</a></li>
+                        <li><a class="py-2 block" href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>
