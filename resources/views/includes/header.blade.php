@@ -4,10 +4,10 @@
             <a href="/" class="text-3xl md:text-4xl font-bold">agorama</a>
             <ul class="hidden md:flex items-center text-base xl:text-lg tracking-wide space-x-8">
                 <li><a href="{{ route('index') }}">Home</a></li>
-                <li><a href="#">About</a></li>
+{{--                <li><a href="#">About</a></li>--}}
                 {{--                <li><a href="#">Concept</a></li>--}}
                 <li><a href="{{ route('menu') }}">Menu</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
                 <!--
                 <li class="px-4 py-2 bg-green-600 rounded-lg whitespace-nowrap">Order Now</li>
                 -->
@@ -20,9 +20,9 @@
                      @click.outside="showMenu=false">
                     <ul class="flex flex-col divide-y leading-10">
                         <li><a href="{{ route('index') }}">Home</a></li>
-                        <li><a href="#">About</a></li>
+{{--                        <li><a href="#">About</a></li>--}}
                         <li><a href="{{ route('menu') }}">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>

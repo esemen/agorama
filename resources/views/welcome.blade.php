@@ -10,8 +10,9 @@
 
             <hr class="my-8">
 
-            <h3 class="text-2xl lg:text-3xl xl:text-4xl text-center mt-4 font-logo font-normal tracking-widest">Opening
-                Soon</h3>
+            <h3 class="text-2xl lg:text-3xl xl:text-4xl text-center mt-4 font-logo font-normal tracking-widest">
+                Open Now
+            </h3>
             <h3 class="text-base xl:text-2xl text-center mt-8 font-light tracking-wide uppercase">London</h3>
         </div>
     </div>
