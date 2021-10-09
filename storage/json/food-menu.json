@@ -809,7 +809,7 @@
                             ]
                         },
                         {
-                            "name": "Tekirdag Raki",
+                            "name": "Tekirdag",
                             "price": [
                                 6,
                                 9.5,
@@ -905,12 +905,6 @@
                             "name": "Tomato Juice",
                             "price": [
                                 3.5
-                            ]
-                        },
-                        {
-                            "name": "Selection of Fresh Fruits and Vegetables from Local Market (antioxidant)",
-                            "price": [
-                                5.5
                             ]
                         }
                     ]
