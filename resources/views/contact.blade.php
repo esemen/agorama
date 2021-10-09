@@ -21,7 +21,7 @@
                 </div>
                 <div class="mt-24 text-center text-xl font-medium text-gray-700">
                     <p class="mb-4"><i class="text-4xl text-green-500 fa fa-phone"></i></p>
-                    <a href="tel://00442039048179">0203 904 81 79</a>
+                    <a href="tel://02039048179">0203 904 81 79</a>
                 </div>
                 <div class="mt-24 text-center text-xl font-medium text-gray-700">
                     <p class="mb-4"><i class="text-4xl text-green-500 fa fa-envelope"></i></p>
