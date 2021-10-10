@@ -424,7 +424,7 @@
         },
         {
             "name": "Breakfast",
-            "footer": "",
+            "description": "",
             "items": [
                 {
                     "name": "English Breakfast",
@@ -466,6 +466,26 @@
                     "name": "Eggs Florentine",
                     "description": "English Muffin Poached Egg, Hollandaise Sauce & Spinach",
                     "price": 11
+                }
+            ]
+        },
+        {
+            "name": "Smoothies",
+            "items": [
+                {
+                    "name": "Merry Berry",
+                    "description": "Blackberry, Blueberry, Strawberry, Raspberry, Banana",
+                    "price": 5
+                },
+                {
+                    "name": "Tropical ",
+                    "description": "Passion Fruit, Papaya, Mango Pineapple",
+                    "price": 5
+                },
+                {
+                    "name": "Merry Berry",
+                    "description": "Avocado, Spinach, Green Apple, William Pear, Mint",
+                    "price": 5
                 }
             ]
         }

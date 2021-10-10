@@ -22,4 +22,8 @@ Route::get('contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('order', function () {
+    return redirect('https://www.just-eat.co.uk/restaurants-agorama-willesden/menu');
+})->name('order');
+
 Route::get('menu', [AgoramaController::class, 'menu'])->name('menu');
