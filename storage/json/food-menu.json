@@ -38,7 +38,7 @@
                 },
                 {
                     "name": "Garlic Bread",
-                    "description": "Kumquat and Chili Sauce",
+                    "description": "Topped Parmesan Cheese, Garlic, Mixed Herbs and Olive Oil",
                     "price": 5.5
                 },
                 {
@@ -174,7 +174,7 @@
                 {
                     "name": "Kleftiko",
                     "description": "Oven Cooked Lamb Shank, Cooked in a rich and Creamy Tomato Sauce served with Seasonal Vegetables & Rice",
-                    "price": 22
+                    "price": 19
                 },
                 {
                     "name": "Chicken and Mushroom Casserole",
@@ -205,7 +205,7 @@
                 },
                 {
                     "name": "Shrimp with Broccoli Sauce",
-                    "description": "Broccoli, Garlic Sauce, Cheese ",
+                    "description": "Broccoli, Garlic Sauce, Cheese",
                     "price": 12
                 }
             ]
@@ -221,14 +221,35 @@
                     "spicy": true
                 },
                 {
-                    "name": "Corn-Fed Chicken Shish",
-                    "description": "Charcoal Grilled Marinated Corn-Fed Chicken ",
+                    "name": "Chicken Shish",
+                    "description": "Charcoal Grilled Marinated Chicken ",
                     "price": 13
                 },
                 {
                     "name": "Lamb Shish",
-                    "description": "Charcoal Grilled Marinated Lamb ",
+                    "description": "Charcoal Grilled Marinated lamb",
                     "price": 16.5
+                },
+                {
+                    "name": "Lamb Chops",
+                    "description": "Charcoal Grilled Marinated lamb",
+                    "price": 16.5
+                },
+                {
+                    "name": "Lamb Ribs",
+                    "description": "Charcoal Grilled, seasoned tender Lamb Ribs",
+                    "price": 16.5
+                },
+                {
+                    "name": "Lamb Beyti",
+                    "description": "Charcoal Grilled, lean and tender minced Lamb Shish Kofte, Garlic",
+                    "price": 16.5
+                },
+                {
+                    "name": "Adana Kebab",
+                    "description": "Charcoal Grilled, Lean and tender Minced Lamb Shish Kofte",
+                    "price": 16.5,
+                    "spicy": true
                 },
                 {
                     "name": "Chicken Wings",
@@ -246,6 +267,22 @@
                     "name": "Ribeye Steak",
                     "description": "Chips and Salad",
                     "price": 24
+                }
+            ]
+        },
+        {
+            "name": "Seafood",
+            "footer": "",
+            "items": [
+                {
+                    "name": "Sea Bass",
+                    "description": "Charcoal Grilled Marinated, Mash Potato & Vegatables",
+                    "price": 14.5
+                },
+                {
+                    "name": "Salmon",
+                    "description": "With Asparagus Hollandaise",
+                    "price": 13
                 }
             ]
         },
@@ -283,13 +320,13 @@
                     "items": [
                         {
                             "name": "Chickpea Burger",
-                            "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
+                            "description": "Vegan Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
                             "price": 11,
                             "vegan": true
                         },
                         {
                             "name": "Aubergine and Courgette Burger",
-                            "description": "Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
+                            "description": "Vegan Brioche Bun, Onion, Pickles, Gem Lettuce, Tomato, Slaw served with Fries",
                             "price": 12.5,
                             "vegan": true
                         }
@@ -299,7 +336,7 @@
                     "name": "Chicken Burgers",
                     "items": [
                         {
-                            "name": "Spicy Buffalo",
+                            "name": "Spicy Buffalo Burger",
                             "description": "Crispy Chicken, Mozzarella, Lettuce, Garlic and Buffalo Sauce",
                             "price": 12,
                             "spicy": true
@@ -397,6 +434,32 @@
             ]
         },
         {
+            "name": "Kids Menu",
+            "footer": "",
+            "items": [
+                {
+                    "name": "Pizza Margherita",
+                    "description": "Tomato, Mozzarella and Oregano",
+                    "price": 6
+                },
+                {
+                    "name": "Spaghetti Tomato",
+                    "description": "Special Tomato Sauce",
+                    "price": 4.5
+                },
+                {
+                    "name": "Kids Beef & Cheeseburger",
+                    "description": "Served with chips",
+                    "price": 5.5
+                },
+                {
+                    "name": "Chicken Nuggets",
+                    "description": "Served with Chips and Peas",
+                    "price": 6
+                }
+            ]
+        },
+        {
             "name": "Desserts",
             "footer": "",
             "items": [
@@ -483,7 +546,7 @@
                     "price": 5
                 },
                 {
-                    "name": "Merry Berry",
+                    "name": "Groovy Green",
                     "description": "Avocado, Spinach, Green Apple, William Pear, Mint",
                     "price": 5
                 }
@@ -506,28 +569,32 @@
                             "price": [
                                 4,
                                 19
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Artesa Rioja Tempronillo (Spain)",
                             "price": [
                                 5.5,
                                 29
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Nieto Malbec Mendosa (Argentina)",
                             "price": [
                                 6.5,
                                 31
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "San Felice Chianti Classico Toscana (Italy)",
                             "price": [
                                 6.8,
                                 33
-                            ]
+                            ],
+                            "vegan": true
                         }
                     ]
                 },
@@ -543,7 +610,8 @@
                             "price": [
                                 5,
                                 26
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Cave de l’Ormarine ‘Carte Noire’, Picpoul de Pinet (France) ",
@@ -557,21 +625,24 @@
                             "price": [
                                 6.5,
                                 31
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Il Cascinone Campo Fiorito Chardonnay (Italy)",
                             "price": [
                                 6.8,
                                 33
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Cave de Turckheim Sylvaner Vieilles Vignes (France)",
                             "price": [
                                 7.5,
                                 37
-                            ]
+                            ],
+                            "vegan": true
                         }
                     ]
                 },
@@ -587,7 +658,8 @@
                             "price": [
                                 6,
                                 30
-                            ]
+                            ],
+                            "vegan": true
                         },
                         {
                             "name": "Mas Macia Cava Brut (Spain)",
@@ -610,7 +682,8 @@
                             "price": [
                                 5,
                                 26
-                            ]
+                            ],
+                            "vegan": true
                         }
                     ]
                 }
@@ -644,6 +717,12 @@
                             ]
                         },
                         {
+                            "name": "Efes Draft 500 ml",
+                            "price": [
+                                7
+                            ]
+                        },
+                        {
                             "name": "Efes 330 ml",
                             "price": [
                                 5
@@ -666,7 +745,7 @@
             ]
         },
         {
-            "name": "Coctails",
+            "name": "Cocktails",
             "categories": [
                 {
                     "name": "",
