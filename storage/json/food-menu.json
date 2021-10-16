@@ -495,40 +495,25 @@
                     "price": 11.5
                 },
                 {
-                    "name": "American Breakfast",
-                    "description": "Three Pancakes with Bacon Sausage, Crispy Potato, Fried Egg, Maple Syrup",
+                    "name": "Mediterranean Breakfast",
+                    "description": "2 kinds of Cheese, Olives, Butter, Organic Honey or  Jam, Egg Fried Sausage, Cheese and Spinach Borek served with Tomato and Seasonal Greens.",
                     "price": 10
                 },
                 {
-                    "name": "French Breakfast",
-                    "description": "Croque Madame fried Egg, Potatoes and Salad",
-                    "price": 9
-                },
-                {
                     "name": "Vegan Breakfast",
-                    "description": "Portobello Mushrooms, Baked Beans, Scrambled Tofu, Vegan Sausages & Brioche Bun",
+                    "description": "Grilled Portobello Mushrooms, Baked Beans, Scrambled Tofu, Vegan Sausages & Brioche Bun",
                     "price": 11,
                     "vegan": true
                 },
                 {
+                    "name": "Scrambled Eggs",
+                    "description": "Served with Toasted Bread, Tomato and Seasonal Greens",
+                    "price": 7
+                },
+                {
                     "name": "Omelettes",
-                    "description": "\"Three Eggs Omelette make your own selected up to three toppingsCheese, Bacon, Ham, Mushrooms, Spinach, Tomato, Onion, Mixed Peppers.\"",
-                    "price": 6
-                },
-                {
-                    "name": "Home Made Rolls",
-                    "description": "Bacon, Sausage, Halloumi, Brioche Bun selected Filling",
-                    "price": 6
-                },
-                {
-                    "name": "Salted Caramel Pancakes",
-                    "description": "4 Pancakes, Banana Cream, Fresh Berries with Salted Caramel",
-                    "price": 12
-                },
-                {
-                    "name": "Eggs Florentine",
-                    "description": "English Muffin Poached Egg, Hollandaise Sauce & Spinach",
-                    "price": 11
+                    "description": "Three Eggs Omelette make your own selected up to three toppingsCheese, Bacon, Ham, Mushrooms, Spinach, Tomato, Onion, Mixed Peppers.",
+                    "price": 8
                 }
             ]
         },
