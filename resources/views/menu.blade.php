@@ -9,7 +9,7 @@
         </div>
 
         <div class="container max-w-screen-lg pb-24 flex-grow shadow-2xl">
-            <div class="flex flex-col space-y-8 md:space-x-0 md:flex-row justify-evenly py-16">
+            <div class="flex flex-col space-y-8 md:space-y-0 md:flex-row justify-evenly py-16">
                 <a href="{{ route('menu-dinein') }}" class="w-full md:w-1/3 border border-gray-400 relative transform hover:scale-110 hover:shadow-2xl transition-all">
                     <img src="{{ asset('images/menu/Page1-Front.jpg') }}">
                     <div class="absolute flex flex-col items-center justify-center top-1/2 h-24 w-full bg-gray-800 bg-opacity-75 transform -translate-y-1/2 text-white text-xl">
