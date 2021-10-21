@@ -11,6 +11,9 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="antialiased">
@@ -35,5 +38,6 @@ https://www.agorama.co.uk -->
                 referrerPolicy="no-referrer-when-downgrade"></a></div>
 </noscript>
 <!-- End of Statcounter Code -->
+@stack('footer-scripts')
 </body>
 </html>

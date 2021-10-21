@@ -1,4 +1,4 @@
-<header class="fixed top-0 inset-x-0 bg-gray-900 bg-opacity-95">
+<header class="fixed top-0 inset-x-0 bg-gray-900 bg-opacity-95 z-50">
     <div class="text-white px-4 md:px-8">
         <nav class="h-16 flex justify-between items-center font-logo" x-data="{showMenu: false}">
             <a href="/" class="text-3xl md:text-4xl font-bold">agorama</a>

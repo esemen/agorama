@@ -9,14 +9,41 @@
         </div>
 
         <div class="container max-w-screen-lg pb-24 flex-grow shadow-2xl">
-            @foreach ($foodMenu->foods as $menuCategory)
-                <x-menu.food-category :category="$menuCategory"></x-menu.food-category>
-            @endforeach
+            <div class="flex justify-evenly py-16">
+                <a href="{{ route('menu-dinein') }}" class="w-1/3 border border-gray-400 relative transform hover:scale-110 hover:shadow-2xl transition-all">
+                    <img src="{{ asset('images/menu/Page1-Front.jpg') }}">
+                    <div class="absolute flex flex-col items-center justify-center top-1/2 h-24 w-full bg-gray-800 bg-opacity-75 transform -translate-y-1/2 text-white text-xl">
+                        <div><i class="fa fa-utensils"></i></div>
+                        <div>Dine-in Menu</div>
+                    </div>
+                </a>
+                <a href="{{ route('menu-takeaway') }}" class="w-1/3 border border-gray-400 relative transform hover:scale-110 hover:shadow-2xl transition-all">
+                    <img src="{{ asset('images/menu/Takeaway-Front.jpg') }}">
+                    <div class="absolute flex flex-col items-center justify-center top-1/2 h-24 w-full bg-gray-800 bg-opacity-75 transform -translate-y-1/2 text-white text-xl">
+                        <div><i class="fa fa-shopping-basket"></i></div>
+                        <div>Takeaway Menu</div>
+                    </div>
+                </a>
+            </div>
+
+{{--            @foreach ($foodMenu->foods as $menuCategory)--}}
+{{--                <x-menu.food-category :category="$menuCategory"></x-menu.food-category>--}}
+{{--            @endforeach--}}
 
 
-            @foreach ($foodMenu->drinks as $menuCategory)
-                <x-menu.drink-category :category="$menuCategory"></x-menu.drink-category>
-            @endforeach
+{{--            @foreach ($foodMenu->drinks as $menuCategory)--}}
+{{--                <x-menu.drink-category :category="$menuCategory"></x-menu.drink-category>--}}
+{{--            @endforeach--}}
         </div>
     </div>
 @endsection
+
+@push('footer-scripts')
+    <script>
+        lightbox.option({
+            'resizeDuration': 500,
+            'fitImagesInViewport': true,
+            'wrapAround': true
+        })
+    </script>
+@endpush

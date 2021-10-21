@@ -27,3 +27,11 @@ Route::get('order', function () {
 })->name('order');
 
 Route::get('menu', [AgoramaController::class, 'menu'])->name('menu');
+
+Route::get('menu/dinein', function () {
+    return view('menu-dinein');
+})->name('menu-dinein');
+
+Route::get('menu/takeaway', function () {
+    return view('menu-takeaway');
+})->name('menu-takeaway');
