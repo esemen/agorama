@@ -10,10 +10,11 @@
 
         <div class="container max-w-screen-lg pb-4 flex-grow shadow-2xl">
             <div class="flex flex-col py-4 space-y-4">
-                <img src="{{ asset('images/menu/Page1-Front.jpg') }}">
-                <img src="{{ asset('images/menu/Page1-Back.jpg') }}">
-                <img src="{{ asset('images/menu/Page2-Front.jpg') }}">
-                <img src="{{ asset('images/menu/Page2-Back.jpg') }}">
+                <img src="{{ asset('images/menu/starters.jpg') }}">
+                <img src="{{ asset('images/menu/mains.jpg') }}">
+                <img src="{{ asset('images/menu/burgers.jpg') }}">
+                <img src="{{ asset('images/menu/desserts.jpg') }}">
+                <img src="{{ asset('images/menu/drinks.jpg') }}">
             </div>
         </div>
     </div>
