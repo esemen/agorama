@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 })->name('index');
 
 Route::get('contact', function () {
@@ -35,3 +35,7 @@ Route::get('menu/dinein', function () {
 Route::get('menu/takeaway', function () {
     return view('menu-takeaway');
 })->name('menu-takeaway');
+
+Route::get('event/benan-jan28', function () {
+    return view('event-benan');
+})->name('event-benan');

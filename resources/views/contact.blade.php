@@ -4,7 +4,7 @@
     <div class="min-h-screen flex flex-col">
         <div
             class="h-72 pt-16 flex items-center justify-center bg-black bg-cover bg-center bg-blend-overlay bg-opacity-75 overflow-hidden"
-            style="background-image: url('{{ asset('images/bg-landing.jpg') }}')">
+            style="background-image: url('{{ asset('images/full-table.jpg') }}')">
             <h1 class="text-4xl text-white font-serif">Contact</h1>
         </div>
 
