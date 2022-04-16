@@ -1,7 +1,7 @@
 <header class="fixed top-0 inset-x-0 bg-gray-900 bg-opacity-95 z-50">
     <div class="text-white px-4 md:px-8">
         <nav class="h-16 flex justify-between items-center font-logo" x-data="{showMenu: false}">
-            <a href="/" class="text-3xl md:text-4xl font-bold">agorama</a>
+            <a href="/" class="text-3xl md:text-4xl font-bold">NONEMU</a>
             <ul class="hidden md:flex items-center text-base xl:text-lg tracking-wide space-x-8">
                 <li><a href="{{ route('index') }}">Home</a></li>
                 {{--                <li><a href="#">About</a></li>--}}
